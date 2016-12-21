@@ -1,0 +1,133 @@
+p {
+	text-indent: 30px; 
+	text-align:justify;
+	font-size: 20px;
+	margin: 0px 0px 0px 0px;
+}
+a {
+	text-decoration: none;
+}
+
+div.clr {
+	clear: both;
+}
+h2 {
+	font-size: 22px; 
+	font-style: italic;
+}
+h1 {
+	text-align: center; 
+	font-style: italic; 
+}
+h3 {
+	text-align: center; 
+	font-style: italic; 
+}
+body {
+	color: black;
+	font-style: italic;  
+	background-color:lightgray;
+}
+body {
+	margin:0px;
+	height: 99%;
+	min-width: 600px;
+}
+#obal {
+	
+	position:relative;
+}
+main {
+	position: relative;
+	background-color:white;
+	height: auto;
+	width: 70%;
+	padding: 2% 1%;
+    min-height: 300px;
+	padding-left:16%;
+	float:justify;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-width:620px;
+    height:100px;
+    min-height: 100px;
+	background-image:url("hlava.svg");
+	background-repeat: no-repeat; 
+	background-attachment: scroll;
+	background-position: center center;
+	background-color: gray;
+	background-size: 80% 80%;		
+}
+
+rightPanel {
+	background-color:black;
+	height: 100%;
+	float:right;
+	width: 15%;
+	z-index:10;
+}
+
+nav {
+	background-color:lightgray;
+	position: absolute;
+	height: 100%;
+	float:left;
+	width: 15%;
+	min-width: 75px;
+	min-height: 300px;
+	z-index:10;
+}
+
+nav ul {
+	padding-left: 5px;
+	padding-right: 15px;
+}
+nav li {
+	width: 98%;
+	list-style: none;
+	text-align:center;
+	border-style: ridge;
+	margin: 5px;
+}
+nav li a {
+    display:block;
+	color: black;
+	padding-bottom: 5px;
+	padding-top: 5px;	
+}
+nav li:hover{
+	border-style: groove;
+	background:gray;
+} 
+footer {
+    	clear:both;
+	padding: 20px;
+	background-color: lightgray;
+	text-align:right;
+} 
+
+@media(max-width:700px){
+	main h1 {
+		font-size:22pt;
+	}
+    nav h2 {
+		font-size:22pt;
+	}
+	main img {
+		display: none;	
+	}
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+
